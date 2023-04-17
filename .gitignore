@@ -1,5 +1,5 @@
 .idea
 
-data
-notebooks
+__pycache__
+work
 参考资料
