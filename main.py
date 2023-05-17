@@ -134,7 +134,7 @@ def main():
 
         print(f'Epoch [{epoch + 1}/{EPOCHS}] Loss D: {d_loss.numpy()}, Loss G: {g_loss.numpy()}')
 
-        if (epoch + 1) % 10 == 0:
+        if (epoch + 1) % 5 == 0:
             paddle.save(generator.state_dict(),
                         os.path.join(weights_save_path, 'epoch' + str(epoch + 1).zfill(3) + '.pdparams'))
 

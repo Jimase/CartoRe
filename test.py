@@ -38,6 +38,7 @@ def test(image_path):
 
 if __name__ == '__main__':
     # 指定输入图像的路径
-    image_path = 'data/orgR/01425L.PNG'
+    image_path = 'data/Cartoon_A2B/test_A/01425A.png'
     test(image_path)
+
 
